@@ -17,8 +17,8 @@ HackGPT - мощный и настраиваемый интерфейс AI ча�
 Требуемые библиотеки Python
 Можете установить библиотеки отдельно, использовав эту команду:
 
-
-[code] pip install transformers
+```
+pip install transformers
 pip install streamlit-chat
 pip install huggingface-hub
 pip install torch
@@ -35,20 +35,21 @@ pip install gradio
 pip install ipywidgets
 pip install inquirer
 pip install prettytable
-pip install jira [/code]
+pip install jira
+```
 
 Можете установить библиотеки также одним файлом, использовав requirements.txt в папке.
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 Для пользования локальной моделью, требуются библиотеки:
 
-pip install transformers torch streamlit requests beautifulsoup4 pandas
+```pip install transformers torch streamlit requests beautifulsoup4 pandas```
 
 Важно:
 Для запуска локальной модели, которая находится в папке \hackGPT-main\hackGPT-main\hackGPT_local\hackGPT_local.py, заходим в эту папку и в терминале вбиваем:
 
-streamlit run hackGPT_local.py
+```streamlit run hackGPT_local.py```
 
 Также если будут проблемы с библиотеками Python, рекомендую установить актуальную версию Python
 
